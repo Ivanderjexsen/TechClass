@@ -77,11 +77,12 @@ body {
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.2s;
 }
 
 .login-button:hover {
     background: #4d5bb5;
+    transform: translateY(-2px);
 }
 
 .error-message {
