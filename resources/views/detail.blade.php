@@ -434,7 +434,7 @@
 
                 <div class="form-group">
                     <label for="nama_pendaftar">Nama Lengkap</label>
-                    <input
+                    
                         type="text"
                         id="nama_pendaftar"
                         name="nama_pendaftar"
@@ -461,7 +461,7 @@
                 <div class="form-group">
                     <label for="nomor_telepon">Nomor Telepon</label>
                     <input
-                        type="text"
+                        type="tel"
                         id="nomor_telepon"
                         name="nomor_telepon"
                         value="{{ old('nomor_telepon') }}"
@@ -469,7 +469,7 @@
                         autocomplete="tel"
                         required
                     >
-                    <p class="form-note">
+                    <p class="<inputform-note">
                         Pastikan nomor telepon yang dimasukkan masih aktif.
                     </p>
                 </div>
