@@ -556,7 +556,7 @@
                         <h3>{{ $item->judul_kelas }}</h3>
 
                         <p class="card-description">
-                            {{ $item->deskripsi }}
+                            {{ Str::limit($item->deskripsi, 120, '...') }}
                         </p>
 
                         <p class="instruktur">
