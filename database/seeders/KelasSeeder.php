@@ -19,7 +19,7 @@ class KelasSeeder extends Seeder
         ]);
 
         Kelas::create([
-            'id_kategori' => 2,
+            'id_kategori' => 1,
             'judul_kelas' => 'Desain Grafis untuk Pemula',
             'deskripsi' => 'Mempelajari dasar desain grafis menggunakan aplikasi desain.',
             'instruktur' => 'Andi Saputra',
@@ -28,7 +28,7 @@ class KelasSeeder extends Seeder
         ]);
 
         Kelas::create([
-            'id_kategori' => 3,
+            'id_kategori' => 2,
             'judul_kelas' => 'Dasar Jaringan Komputer',
             'deskripsi' => 'Mempelajari konsep dasar jaringan komputer dan konfigurasi jaringan.',
             'instruktur' => 'Rizky Pratama',
