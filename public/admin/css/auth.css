@@ -1,0 +1,128 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 420px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.login-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login-header h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.login-header p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    border-color: #6574cd;
+    box-shadow: 0 0 0 3px rgba(101, 116, 205, 0.12);
+}
+
+.login-button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    background: #6574cd;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.login-button:hover {
+    background: #4d5bb5;
+}
+
+.error-message {
+    margin-top: 7px;
+    color: #dc3545;
+    font-size: 13px;
+}
+
+.alert-success {
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    background: #d1e7dd;
+    color: #0f5132;
+    font-size: 14px;
+}
+
+.alert-error {
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    background: #f8d7da;
+    color: #842029;
+    font-size: 14px;
+}
+
+.back-link {
+    display: block;
+    margin-top: 24px;
+    color: #6574cd;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 28px 22px;
+    }
+}
