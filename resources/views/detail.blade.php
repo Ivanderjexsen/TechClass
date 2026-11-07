@@ -432,9 +432,10 @@
             <form action="{{ route('kelas.daftar', $kelas->id_kelas) }}" method="POST">
                 @csrf
 
-                <div class="form-group">
+           <div class="form-group">
                     <label for="nama_pendaftar">Nama Lengkap</label>
-                    
+
+                    <input
                         type="text"
                         id="nama_pendaftar"
                         name="nama_pendaftar"
